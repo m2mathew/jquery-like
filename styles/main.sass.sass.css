@@ -1,0 +1,31 @@
+body {
+  background-color: #2B303B; }
+
+form {
+  width: 100%;
+  text-align: center; }
+  form #like-button {
+    width: 20%;
+    height: 5em;
+    background-color: #eee;
+    margin: 8em;
+    border-radius: 25px;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 2px 2px #111; }
+
+#reset-div {
+  text-align: center; }
+  #reset-div #reset-button {
+    width: 20%;
+    height: 5em;
+    background-color: #4485F3;
+    text-align: center;
+    margin: 3em;
+    border-radius: 25px;
+    font-weight: bold;
+    font-family: cursive;
+    color: #fff;
+    font-size: 2em;
+    box-shadow: 2px 2px #111; }

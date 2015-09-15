@@ -1,5 +1,11 @@
 body {
     background-color: #2B303B;
+    font-family: futura;
+}
+
+#page-title {
+    font-family: 'Palatino Linotype';
+    color: #eee;
 }
 
 form {
@@ -11,11 +17,10 @@ form {
         width: 20%;
         height: 5em;
         background-color: #eee;
-        margin: 8em;
+        margin: 4em;
         border-radius: 25px;
-        font-family: cursive;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 2em;
         box-shadow: 2px 2px #111;
 
     }
@@ -33,7 +38,6 @@ form {
         margin: 3em;
         border-radius: 25px;
         font-weight: bold;
-        font-family: cursive;
         color: #fff;
         font-size: 2em;
         box-shadow: 2px 2px #111;

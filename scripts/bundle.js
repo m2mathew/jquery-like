@@ -4,18 +4,32 @@
 var count = 0;
 
 // target elements
-var $likeForm = $('#like-form');
-var $likeButton = $('#like-button');
-var $resetButton = $('#reset-button');
+var $startButton = $('.start-button'); // class
+var $likeForm = $('form'); // tag
+var $likeButton = $('.like-button'); // class
+var $resetButton = $('#reset-button'); // id
+
+$likeForm.hide();
+$resetButton.hide();
 
 // create functions
+function onShowButtons() {
+    $startButton.hide();
+    $likeForm.show();
+    $resetButton.show();
+    console.log('hi');
+}
+
 function onButtonSubmit(e) {
+    // prevents automatic refresh on submit
     e.preventDefault();
     count++;
 
     if (count === 1) {
         $likeButton.html('1 Like');
-    } else $likeButton.html(count + ' Likes');
+    } else {
+        $likeButton.html(count + ' Likes');
+    }
 }
 
 function onClearButton() {
@@ -24,6 +38,7 @@ function onClearButton() {
 }
 
 // add event listener
+$startButton.on('click', onShowButtons);
 $likeForm.on('submit', onButtonSubmit);
 $resetButton.on('click', onClearButton);
 

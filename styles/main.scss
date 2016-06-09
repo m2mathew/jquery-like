@@ -1,46 +1,53 @@
 body {
     background-color: #2B303B;
-    font-family: futura;
+    font-family: "Input Mono";
+    text-align: center;
 }
 
 #page-title {
-    font-family: 'Palatino Linotype';
+    padding: 50px;
+    font-size: 36px;
     color: #eee;
+}
+
+.start-button {
+  color: #eee;
+  background-color: #4485F3;
+  width: 250px;
+  height: 84px;
+  margin: 60px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 24px;
+  box-shadow: 2px 2px #111;
 }
 
 form {
     width: 100%;
-    text-align: center;
 
-
-    #like-button {
-        width: 20%;
-        height: 5em;
+    .like-button {
+        width: 250px;
+        height: 84px;
         background-color: #eee;
-        margin: 4em;
-        border-radius: 25px;
+        margin: 60px;
+        border-radius: 20px;
         font-weight: bold;
-        font-size: 2em;
+        font-size: 24px;
         box-shadow: 2px 2px #111;
-
     }
 }
 
 #reset-div {
-
-    text-align: center;
-
     #reset-button {
-        width: 20%;
-        height: 5em;
+        width: 250px;
+        height: 84px;
         background-color: #4485F3;
         text-align: center;
-        margin: 3em;
-        border-radius: 25px;
+        margin: 60px;
+        border-radius: 20px;
         font-weight: bold;
         color: #fff;
-        font-size: 2em;
+        font-size: 24px;
         box-shadow: 2px 2px #111;
     }
 }
-

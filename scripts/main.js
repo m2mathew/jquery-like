@@ -11,12 +11,16 @@ var $resetButton = $('#reset-button');  // id
 $likeForm.hide();
 $resetButton.hide();
 
-// create functions
+/*
+*   create functions
+*
+*/
+
+// hide start button and show input buttons
 function onShowButtons() {
   $startButton.hide();
   $likeForm.show();
   $resetButton.show();
-  console.log('hi');
 }
 
 function onButtonSubmit(e) {

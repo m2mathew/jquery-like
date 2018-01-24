@@ -48,5 +48,4 @@ $resetButton.on('click', onClearButton);
 
 },{}]},{},[1])
 
-
 //# sourceMappingURL=bundle.js.map
